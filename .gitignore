@@ -1,2 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Python / Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Sensitive files
+alamin-devops-key.pem
+
+# OS/System
+.DS_Store
 alamin-devops-key.pem
 .terraform/
+
